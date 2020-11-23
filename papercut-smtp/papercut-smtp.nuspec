@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>papercut-smtp</id>
+    <version>5.7.0</version>
+    <title>papercut-smtp</title>
+    <authors>Changemaker Studios</authors>
+    <owners>ducksecops</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/ChangemakerStudios/Papercut-SMTP</projectUrl>
+    <tags>papercut-smtp smtp developer</tags>
+    <summary>The Simple Desktop Email Server</summary>
+    <description>Papercut is a 2-in-1 quick email viewer AND built-in SMTP server (designed to receive messages only). Not only does it not enforce any restrictions how you prepare your email, but it allows you to view the whole email-chilada: body, html, headers, attachment down right down to the naughty raw encoded bits. Papercut can be configured to run on startup and sit quietly (minimized in the tray) only providing a notification when a new message has arrived.</description>
+    <iconUrl>https://raw.githubusercontent.com/ChangemakerStudios/Papercut-SMTP/master/graphics/Papercut-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/ChangemakerStudios/Papercut-SMTP/releases</releaseNotes>
+    <copyright>Changemaker Studios</copyright>
+    <packageSourceUrl>https://github.com/ducksecops/chocolatey/papercut-smtp</packageSourceUrl>
+    <docsUrl>https://github.com/ChangemakerStudios/Papercut-SMTP#readme</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
